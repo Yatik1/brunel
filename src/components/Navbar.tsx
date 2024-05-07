@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 import logo from "../assets/logo.svg"
 import Button from "./Button"
 import Image from "./Image"
+import { MdOutlineNavigateNext } from "react-icons/md";
 
 function Navbar() {
 
@@ -27,9 +28,15 @@ function Navbar() {
           />
           <Button 
             label="Onboard Talent"
-            className="p-4 md:p-5 text-white bg-black w-[10rem] font-semibold"
+            className="p-4 md:p-5 text-white bg-black w-[10rem] font-semibold hover:bg-[#4E4E4E]"
           />
         </div>
+
+        <Button 
+        icon={<MdOutlineNavigateNext />}
+        onClick={onclick}
+        className="border p-3 sm:hidden hover:bg-[#4b4a4a] hover:text-white"
+      />
 
       </div>
     </div>
