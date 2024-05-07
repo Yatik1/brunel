@@ -6,7 +6,7 @@ import backEffect from "../assets/backEffect.svg"
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-8">
+    <div className="flex flex-col items-center justify-center mt-8 lg:mb-0 mb-[5rem]">
        
        <div className="flex flex-col items-center justify-center gap-y-4">
          <div className="font-grace text-[#2DA950] text-3xl">Success stories</div>
@@ -29,7 +29,7 @@ const HeroSection = () => {
             <div className="absolute top-[6.5rem] md:top-[9rem] lg:top-[21rem] lg:left-[-10rem]">
                <Button 
                 label="Explore More"
-                className="p-4 md:p-5 mt-[2rem] text-white bg-[#1C1C1C] lg:mt-7 hover:bg-white hover:text-black hover:border border-black"
+                className="p-4 md:p-5 mt-[2rem] text-white bg-[#1C1C1C] lg:mt-7 hover:bg-[#4E4E4E] hover:text-white"
                 icon={<FaArrowRight />}
                />
             </div>
